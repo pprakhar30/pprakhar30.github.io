@@ -1,2 +1,3 @@
 name: Prakhar Pandey, pprakhar30
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
