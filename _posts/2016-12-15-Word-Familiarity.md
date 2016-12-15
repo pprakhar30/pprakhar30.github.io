@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 6
+modal-id: 1
 date: 2016-12-15
 img: EmotivEpoc.jpg
 alt: image-alt
