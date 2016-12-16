@@ -28,6 +28,6 @@ All the 105 seconds videos are converted to 64 X 64 pixel frames and these frame
 
 ### Model Architecture
 
-![alt text](https://github.com/pprakhar30/pprakhar30.github.io/img/portfolio/Architecture.png)
+![model](https://github.com/pprakhar30/pprakhar30.github.io/img/portfolio/Architecture.png "Example")
 
 
