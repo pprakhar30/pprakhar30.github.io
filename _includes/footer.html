@@ -16,14 +16,18 @@
                         <ul class="list-inline">
                             {% for network in site.social %}
                             <li>
-                                <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
+                                {% if network.title == "goodreads" %}
+                                <a target="_blank" href="{{ network.url }}"><img src="/img/portfolio/goodreads.png"></a>
+                                {% else %}
+                                <a target="_blank" href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
+                                {% endif %}
                             </li>
 		                    {% endfor %}
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>{{ site.footer.credits }}</h3>
-                        <p>{{ site.credits }}</p>
+                        <h3>Mail To:</h3>
+                        <p><i>pprakhar30[at]gmail.com</i></p>
                     </div>
                 </div>
             </div>
