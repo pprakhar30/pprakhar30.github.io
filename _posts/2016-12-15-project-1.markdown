@@ -26,7 +26,7 @@ Electroencephalography (EEG) is an electrophysiological monitoring method to rec
 
 ### Word Familiarity
 
-This is the task where we try to find out whether or not a subject is familiar with the given word or not using just the EEG signals.
+This is the task where we try to find out whether or not a subject is familiar with the given word using just the EEG signals.
 We make use of Brain Activation Maps which are derived from the EEG Signals.
 
 We collected samples from 13 subjects in which they were shown a list of 25 words and they were supposed to tell whether or not they knew the meaning.The recording of one of the subject was of no use because of too much noise and hence was discarded.
